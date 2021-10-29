@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:text="My Account"
+            android:textAllCaps="true"
+            android:textColor="#FA3E03"
+            android:textSize="17sp" />
+        <View
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="FirstName"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:textColor="@color/Blacklogo"
+            android:textSize="16dp" />
+        <View
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:maxWidth="300dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:text="LastName"
+            android:textColor="@color/Blacklogo"
+            android:textSize="16dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10sp"
+            android:background="@color/gray"
+            />
+
+        <TextView
+
+            android:id="@+id/emaillay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_mail_24"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="10dp"
+            android:maxWidth="300dp"
+            android:text="Email"
+            android:textColor="@color/Blacklogo"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            />
+
+        <TextView
+            android:id="@+id/Passwordd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Password"
+            android:password="true"
+            android:textColor="@color/Blacklogo"
+            android:textSize="16dp" />
+        <View
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:maxWidth="300dp"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:drawablePadding="10dp"
+            android:text="Address"
+            android:textColor="@color/Blacklogo"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray"
+            />
+
+            <LinearLayout
+                android:layout_marginTop="70dp"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/Orange"
+                    />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center_vertical"
+                    android:text="Account Actions"
+                    android:textAllCaps="true"
+                    android:textColor="#FA3E03"
+                    android:textSize="17sp" />
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/logoutt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:drawableLeft="@drawable/ic_baseline_exit_to_app_24"
+                    android:drawablePadding="10dp"
+                    android:text="Log Out"
+                    android:textColor="@color/Blacklogo"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="12dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:text="My Account"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="#FA3E03"-->
+<!--        android:textSize="17sp" />-->
+<!--    <View-->
+<!--        android:layout_marginTop="10sp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:background="@color/gray"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:id="@+id/first_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:text="FirstName"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_person_24"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:textColor="@color/Blacklogo"-->
+<!--        android:textSize="16dp" />-->
+<!--    <View-->
+<!--        android:layout_marginTop="10sp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:background="@color/gray"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:id="@+id/last_name"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:maxWidth="300dp"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_person_24"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:text="LastName"-->
+<!--        android:textColor="@color/Blacklogo"-->
+<!--        android:textSize="16dp" />-->
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:layout_marginTop="10sp"-->
+<!--        android:background="@color/gray"-->
+<!--        />-->
+
+<!--    <TextView-->
+
+<!--        android:id="@+id/emaillay"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_mail_24"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:maxWidth="300dp"-->
+<!--        android:text="Email"-->
+<!--        android:textColor="@color/Blacklogo"-->
+<!--        android:textSize="16dp" />-->
+
+<!--    <View-->
+<!--        android:layout_marginTop="10sp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:background="@color/gray"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/Passwordd"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_lock_24"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:text="Password"-->
+<!--        android:password="true"-->
+<!--        android:textColor="@color/Blacklogo"-->
+<!--        android:textSize="16dp" />-->
+<!--    <View-->
+<!--        android:layout_marginTop="10sp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:background="@color/gray"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:id="@+id/Address"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:maxWidth="300dp"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_location_on_24"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:text="Address"-->
+<!--        android:textColor="@color/Blacklogo"-->
+<!--        android:textSize="16dp" />-->
+
+<!--    <View-->
+<!--        android:layout_marginTop="10sp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="2dp"-->
+<!--        android:background="@color/gray"-->
+<!--        />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_marginTop="90dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="2dp"-->
+<!--            android:background="@color/Orange"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="12dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:text="Account Actions"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:textColor="#FA3E03"-->
+<!--            android:textSize="17sp" />-->
+<!--        <TextView-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:id="@+id/logoutt"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="15dp"-->
+<!--            android:drawableLeft="@drawable/ic_baseline_exit_to_app_24"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            android:text="Log Out"-->
+<!--            android:textColor="@color/Blacklogo"-->
+<!--            android:textSize="16dp" />-->
+
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.food_firebase">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        xmlns:tools="http://schemas.android.com/tools"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".model.UpdateFood"></activity>
+        <activity android:name=".customer.Food_details"
+            android:theme="@style/AppThemeNoActionbar"/>
+        <activity android:name=".chef.chef_postDish" />
+        <activity android:name=".start.CustomerFoofPanel_BottomNavigation" />
+        <activity android:name=".customer.ForgotPassword" /> <!-- <activity android:name=".Chefsendotp"/> -->
+        <activity android:name=".chef.ChefForgotPassword" />
+        <activity android:name=".start.ChefFoodPanel_BottomNavigation" />
+        <activity
+            android:name=".customer.Registration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".customer.Login"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".chef.ChefRegistration"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".chef.Cheflogin"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".start.ChooseOne"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity
+            android:name=".start.MainMenu"
+            android:theme="@style/AppThemeNoActionbar" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+        <activity
+            android:name=".start.MainActivity"
+            android:hardwareAccelerated="false"
+            android:theme="@style/AppThemeNoActionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

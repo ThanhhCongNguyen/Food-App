@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/OffWhite"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="5dp"
+                android:maxWidth="300dp"
+                android:text=" Foodizo "
+                android:textColor="@color/Orange"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone"
+                android:text="Phone number: 033 683 9999"
+                android:textSize="10sp"
+                android:maxWidth="300dp"
+                android:textStyle="italic"
+                android:textColor="@color/Black"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/adresss"
+                android:text="Address: Ha Noi - Viet Nam"
+                android:textSize="10sp"
+                android:maxWidth="300dp"
+                android:textStyle="italic"
+                android:textColor="@color/Black"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="15dp"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+<!--                <TextView-->
+<!--                    android:id="@+id/name"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginLeft="15dp"-->
+<!--                    android:layout_marginTop="0dp"-->
+<!--                    android:layout_marginBottom="5dp"-->
+<!--                    android:maxWidth="300dp"-->
+<!--                    android:text=" Foodizo "-->
+<!--                    android:textColor="@color/Orange"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:textStyle="bold" />-->
+<!--                <TextView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/phone"-->
+<!--                    android:text="Phone number: 033 683 9999"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:maxWidth="300dp"-->
+<!--                    android:textStyle="italic"-->
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:layout_marginTop="0dp"-->
+<!--                    android:layout_marginBottom="2dp"-->
+<!--                    android:layout_marginLeft="15dp"/>-->
+<!--                <TextView-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/adresss"-->
+<!--                    android:text="Address: Ha Noi - Viet Nam"-->
+<!--                    android:textSize="10sp"-->
+<!--                    android:maxWidth="300dp"-->
+<!--                    android:textStyle="italic"-->
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:layout_marginBottom="8dp"-->
+<!--                    android:layout_marginLeft="15dp"/>-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Items_1"
+                    android:text="Menu: "
+                    android:textSize="15sp"
+                    android:maxWidth="300dp"
+                    android:textColor="@color/Black"
+                    android:layout_marginLeft="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Items"
+                    android:text="Item"
+                    android:textSize="10sp"
+                    android:maxWidth="300dp"
+                    android:textStyle="italic"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/Black"
+                    android:layout_marginLeft="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dayOfWeek"
+                    android:text="Ngày"
+                    android:textSize="15sp"
+                    android:maxWidth="300dp"
+                    android:textColor="@color/Black"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="15dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/total_price"
+                    android:text="Total: 120Rs"
+                    android:textSize="15sp"
+                    android:textColor="@color/green"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="15dp"/>
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/thanks"
+                    android:text="----- Thank you -----"
+                    android:textSize="15sp"
+                    android:maxWidth="300dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/Black"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="15dp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

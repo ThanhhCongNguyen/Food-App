@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chefFoodPanel.ChefProfileFragment"
+    android:background="@drawable/img4">
+
+    <ImageButton
+        android:id="@+id/image_upload_update"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/camerashapebtn"
+        android:src="@drawable/ic_baseline_camera_alt_24"
+        app:layout_constraintBottom_toBottomOf="@+id/linear_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363"
+        app:layout_constraintHorizontal_bias="0.493"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout_update"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_upload_update"
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.53">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:id="@+id/textView_update"
+            android:text="Dish Name"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/dishes_update"
+            android:layout_width="162dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="12dp"
+            android:background="#D0FFFFFF"
+            android:entries="@array/DishName" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_update"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear_layout_update"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.53">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="text"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Quantity_update"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_update"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.53">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/price_update"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Quantity_update"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.53">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:background="@drawable/elegant_btnshape"
+        app:layout_constraintTop_toBottomOf="@id/price_update"
+        android:text="Update"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.30"
+        app:layout_constraintHorizontal_bias="0.498"
+        android:textSize="20sp"/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
